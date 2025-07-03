@@ -59,8 +59,8 @@ public class ArtistManager {
      */
     private List<String> getUserInput(Path jsonFilePath) {
         System.out.printf("""
-                Add all these to %s?
-                You can exclude any artist by specifying their number separated by a space.
+                All these artists will be added to "%s"
+                You can exclude any artist by specifying their number separated by a space
                 
                 Example: "y 1 3 10" or "y" or "n":\s""", jsonFilePath);
 

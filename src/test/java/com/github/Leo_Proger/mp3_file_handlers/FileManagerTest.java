@@ -37,7 +37,7 @@ class FileManagerTest {
 
         // Create a source file
         Files.createFile(originalFile);
-        // Write some content to ensure file is not empty
+        // Write some content to ensure the file is not empty
         Files.writeString(originalFile, "Test content");
 
         // Check the existence of the source file
